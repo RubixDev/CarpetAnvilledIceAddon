@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "carpetice",
+  "version": "1.0.1",
+
+  "name": "Carpet Anvilled Ice Addon",
+  "description": "Implements the three anvilledIce features from QuickCarpet as a Carpet extension mod.",
+  "authors": [
+    "RubixDev"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/carpetice/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "carpetice.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "carpet": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  },
+  "custom": {
+    "modmenu:parent": "carpet"
+  }
+}

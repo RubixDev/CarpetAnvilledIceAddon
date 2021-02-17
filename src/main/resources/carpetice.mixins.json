@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.rubixdev.carpet.anvilled.ice.addon.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "FallingBlockEntityMixin",
+    "CarpetServerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
