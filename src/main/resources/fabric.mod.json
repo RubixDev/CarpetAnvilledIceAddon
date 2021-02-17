@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "carpetice",
-  "version": "1.0.1",
+  "version": "1.0.0",
 
   "name": "Carpet Anvilled Ice Addon",
   "description": "Implements the three anvilledIce features from QuickCarpet as a Carpet extension mod.",
